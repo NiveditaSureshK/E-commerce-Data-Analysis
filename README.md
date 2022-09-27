@@ -23,6 +23,19 @@ Observations on the following are made:
 
 ## Data Analysis Using Python
 
+1. Loaded data for each month and created a data frame using Pandas.
+2. For 2019 sales, an aggregated dataset was created by concatenating multiple datasets together.
+3. Data handling for null values and junk data.
+4. Preprocessed data to make a filtered dataset.
+5. Business problem analysis and their solutions. (visualizations using matplotlib and seaborn library)
+
+### What was the best month for sales?
+- Create a new dataset with all records grouped by month 
+- Visualize the graph using **matlotlib**
+
+<img width="334" alt="image" src="https://user-images.githubusercontent.com/71536311/192509661-634c5a5b-17a7-4307-974c-bfe12592ee48.png">
+
+
 
 ## Tools Used
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)   ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)   ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)   ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23#ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)   ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
