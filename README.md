@@ -78,7 +78,7 @@ Observations on the following are made:
 For more details, please go through the Jupyter Notebook attached above.
 
 ## Conclusion
-- The analysis above clearly illustrates that **month 12 (December)** boasts the maximum sales in 2019 with roughly $9,226,886.
+- The analysis above clearly illustrates that **month 12 (December)** boasts the maximum sales in 2019 with roughly **$9,226,886**.
 - According to the graph, **San Francisco** has the largest number of sales.
 - The optimum time to display advertising to increase the probability of buyers purchasing the product/s is **shortly before 12 pm and/or right before 7 pm**.
 - The top selling product is **'AAA Batteries (4-pack)'**. The top selling products seem to have a correlation with the price of the product. The ***cheaper the product, higher the quantity ordered and vice versa***.
