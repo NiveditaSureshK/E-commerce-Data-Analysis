@@ -33,6 +33,7 @@ Observations on the following are made:
 - Create a new dataset with all records grouped by month 
 - Visualize the graph using **matplotlib**
 
+<p align="center"><img width="208" alt="image" src="https://user-images.githubusercontent.com/71536311/192696748-f475f862-0ff1-4e29-a02b-8e0677b69bf1.png"></p>
 <p align="center"><img width="334" alt="image" src="https://user-images.githubusercontent.com/71536311/192509661-634c5a5b-17a7-4307-974c-bfe12592ee48.png"></p>
 
 ### Which city had the highest number of sales?
@@ -49,24 +50,37 @@ Observations on the following are made:
 <p align="center"><img width="328" alt="image" src="https://user-images.githubusercontent.com/71536311/192513281-b7957d34-3c44-4814-8e84-ff55da98b1c1.png"></p>
 
 ### Best-selling product & Why?
-- 
+- Determine the sum of the ***"Quantity Ordered"*** by grouping by ***"Product"***.
+- Visual representation of the ***Quantity Ordered*** for each ***Product***.
+
+<p align="center"><img width="355" alt="image" src="https://user-images.githubusercontent.com/71536311/192695672-0e959352-4941-468b-b9a3-a97e19d6ebf0.png"></p>
+
+- Let us also see a graphic depiction of the ***Prices for each product*** grouped by ***Product***.
+
+<p align="center"><img width="349" alt="image" src="https://user-images.githubusercontent.com/71536311/192696011-4090c566-aa3f-495a-895b-13a82cb0b244.png"></p>
 
 ### What products are most often sold together?
 - Group the product by the ***Order ID*** to know which products were sold together.
 - Find the duplicate values of the ***“Order ID”*** by using the **.duplicated()** method.
 - Using **.transform()** method, create a new column called ***"Grouped"*** to combine values from multiple rows into one.
-- 
+- Drop the duplicates created when products were merged for each order ID.
+- Display the top 5 products most often sold together.
+
+<p align="center"><img width="583" alt="image" src="https://user-images.githubusercontent.com/71536311/192694593-737bfc37-5eb9-46c1-ac69-65e08e4f946b.png"></p>
 
 ## Tools Used
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)   ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)   ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)   ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23#ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)   ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)   ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)   ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23#ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)   ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 
 - Jupyter Notebook is used as IDE.
-- Among the Python libraries, Pandas and NumPy are used for handling data, preprocessing, and mathematical functions, respectively.
+- Among the Python libraries, Pandas is used for handling and preprocessing data.
 - Plotly, Seaborn, and Matplotlib are used for visualizing plots.
 
 For more details, please go through the Jupyter Notebook attached above.
 
 ## Conclusion
-
+- The analysis above clearly illustrates that **month 12 (December)** boasts the maximum sales in 2019 with roughly $9,226,886.
+- According to the graph, **San Francisco** has the largest number of sales.
+- The optimum time to display advertising to increase the probability of buyers purchasing the product/s is **shortly before 12 pm and/or right before 7 pm**.
+- The top selling product is **'AAA Batteries (4-pack)'**. The top selling products seem to have a correlation with the price of the product. The **cheaper the product, higher the quantity ordered and vice versa**.
 
 
