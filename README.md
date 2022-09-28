@@ -17,7 +17,7 @@ Observations on the following are made:
 - **Data belongs to Kmart:** A leading online retailer in the US
 - **Time Period :**  January 2019  -  December 2019
 - **Unique Products:**  19
-- **Total Orders :**  178437
+- **Total Orders :**  178,437
 - **Cities :**  9
 - **KPI’s :** Total Sales, Total Products Sold
 
@@ -31,7 +31,7 @@ Observations on the following are made:
 
 ### What was the best month for sales?
 - Create a new dataset with all records grouped by month 
-- Visualize the graph using **matplotlib**
+- Plot the graph using **matplotlib**
 
 <p align="center"><img width="208" alt="image" src="https://user-images.githubusercontent.com/71536311/192696748-f475f862-0ff1-4e29-a02b-8e0677b69bf1.png"></p>
 <p align="center"><img width="334" alt="image" src="https://user-images.githubusercontent.com/71536311/192509661-634c5a5b-17a7-4307-974c-bfe12592ee48.png"></p>
@@ -44,8 +44,8 @@ Observations on the following are made:
 <p align="center"><img width="250" alt="image" src="https://user-images.githubusercontent.com/71536311/192511499-76c45c52-78bf-4ddd-99e8-82743b7a2a59.png"><img width="343" alt="image" src="https://user-images.githubusercontent.com/71536311/192511185-a8ee21d5-4b57-4a4b-adf2-c5ee322b86be.png"></p>
 
 ### Best time to display advertising to maximize sales?
-- Extract the Hours from the ***Order Date***.
-- Group the data by Hours and visualize the graph using **matplotlib**.
+- Extract the ***Hours*** from the ***Order Date***.
+- Group the data by Hours and depict the graph using **matplotlib**.
 
 <p align="center"><img width="328" alt="image" src="https://user-images.githubusercontent.com/71536311/192513281-b7957d34-3c44-4814-8e84-ff55da98b1c1.png"></p>
 
@@ -55,7 +55,7 @@ Observations on the following are made:
 
 <p align="center"><img width="355" alt="image" src="https://user-images.githubusercontent.com/71536311/192695672-0e959352-4941-468b-b9a3-a97e19d6ebf0.png"></p>
 
-- Let us also see a graphic depiction of the ***Prices for each product*** grouped by ***Product***.
+- Let us also see a graphic representation of the ***Prices for each product*** grouped by ***Product***.
 
 <p align="center"><img width="349" alt="image" src="https://user-images.githubusercontent.com/71536311/192696011-4090c566-aa3f-495a-895b-13a82cb0b244.png"></p>
 
