@@ -61,8 +61,8 @@ Observations on the following are made:
 
 ### What products are most often sold together?
 - Group the product by the ***Order ID*** to know which products were sold together.
-- Find the duplicate values of the ***“Order ID”*** by using the **.duplicated()** method.
-- Using **.transform()** method, create a new column called ***"Grouped"*** to combine values from multiple rows into one.
+- Find the duplicate values of the ***“Order ID”*** by using the **.duplicated() method**.
+- Using **.transform() method**, create a new column called ***"Grouped"*** to combine values from multiple rows into one.
 - Drop the duplicates created when products were merged for each order ID.
 - Display the top 5 products most often sold together.
 
@@ -71,16 +71,16 @@ Observations on the following are made:
 ## Tools Used
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)   ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)   ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23#ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)   ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 
-- Jupyter Notebook is used as IDE.
-- Among the Python libraries, Pandas is used for handling and preprocessing data.
-- Plotly, Seaborn, and Matplotlib are used for visualizing plots.
+- **Jupyter Notebook** is used as IDE.
+- Among the **Python libraries**, **Pandas** is used for handling and preprocessing data.
+- **Plotly, Seaborn**, and **Matplotlib** are used for visualizing plots.
 
 For more details, please go through the Jupyter Notebook attached above.
 
 ## Conclusion
-- The analysis above clearly illustrates that **month 12 (December)** boasts the maximum sales in 2019 with roughly **$9,226,886**.
-- According to the graph, **San Francisco** has the largest number of sales.
-- The optimum time to display advertising to increase the probability of buyers purchasing the product/s is **shortly before 12 pm and/or right before 7 pm**.
-- The top selling product is **'AAA Batteries (4-pack)'**. The top selling products seem to have a correlation with the price of the product. The ***cheaper the product, higher the quantity ordered and vice versa***.
+- The analysis above clearly illustrates that ***month 12 (December)*** boasts the maximum sales in 2019 with roughly ***$9,226,886***.
+- According to the graph, ***San Francisco*** has the largest number of sales.
+- The optimum time to display advertising to increase the probability of buyers purchasing the product/s is ***shortly before 12 pm and/or right before 7 pm***.
+- The top selling product is ***'AAA Batteries (4-pack)'***. The top selling products seem to have a correlation with the price of the product. The ***cheaper the product, higher the quantity ordered and vice versa***.
 
 
